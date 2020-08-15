@@ -1,4 +1,7 @@
 package reverse;
+
+import java.awt.*;
+
 //给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转。
 public class Solution {
     public int reverse(int x) {
@@ -28,6 +31,8 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.MIN_VALUE);
         Solution solution=new Solution();
         System.out.println(solution.reverse(-2147483648));
     }
