@@ -1,7 +1,7 @@
 package int2roman;
 
 public class Solution {
-    public String intToRoman(int num) {
+    public void intToRoman(int num) {
         int n1=num/1000;
         int n2=(num%1000)/500;
         int n3=((num%1000)%100)/50;
@@ -22,6 +22,6 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution=new Solution();
-        String rs=solution.intToRoman(1994);
+        solution.intToRoman(1994);
     }
 }
