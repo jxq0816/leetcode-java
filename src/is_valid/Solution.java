@@ -5,9 +5,10 @@ import java.util.Stack;
 public class Solution {
     public boolean isValid(String s) {
         char[] array=s.toCharArray();
+        int len=s.length();
         Stack<Character> stack=new Stack<Character>();
-        for(int i=0;i<=array.length-1;i++){
-            stack.push(array[i]);
+        for(int i=0;i<len;i++){
+            stack.push(s.charAt(i));
         }
         Stack<Character> stack2=new Stack<Character>();
         while(!stack.isEmpty()){
