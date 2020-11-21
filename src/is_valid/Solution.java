@@ -4,7 +4,6 @@ import java.util.Stack;
 
 public class Solution {
     public boolean isValid(String s) {
-        char[] array=s.toCharArray();
         int len=s.length();
         Stack<Character> stack=new Stack<Character>();
         for(int i=0;i<len;i++){
