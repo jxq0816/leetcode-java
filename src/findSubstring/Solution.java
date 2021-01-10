@@ -22,7 +22,7 @@ public class Solution {
         for (int i = 0; i < s.length() - wordNum * wordLen + 1; i++) {
             //将子串中出现的和words中相等的单词及其出现次数存入hashmap
             HashMap<String,Integer> hasWords=new HashMap<>();
-            //记录字串中和words中相等单词数量
+            //记录子串中和words中相等单词数量
             int count=0;
             //统计字串中连续和words中相等的单词
             while (count<wordNum){
@@ -32,7 +32,9 @@ public class Solution {
                     Integer value = hasWords.getOrDefault(word, 0);
                     hasWords.put(word,++value);
                     //如果word出现次数超过words中这个单词的总数量则结束统计
-                    if (hasWords.get(word)>allWords.get(word))break;
+                    if (hasWords.get(word)>allWords.get(word)){
+                        break;
+                    }
                 }else {
                     //如果字串中出现于words中所有单词都不匹配的word则结束统计
                     break;
