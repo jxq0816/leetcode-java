@@ -9,7 +9,6 @@ class Solution2 {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
         List<Integer> perm = new ArrayList<Integer>();
         vis=new boolean[nums.length];
-        int n = nums.length;
         backtrack(nums,res, 0,perm);
         return res;
     }
