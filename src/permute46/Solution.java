@@ -1,4 +1,4 @@
-package permute;
+package permute46;
 
 import java.util.*;
 
