@@ -15,8 +15,7 @@ public class Solution {
             }
             head=head.next;
         }
-        ListNode sentinel=new ListNode(0);
-        sentinel.next=newHead;
+        ListNode sentinel=new ListNode(0,newHead);
         ListNode pre=sentinel,cur=newHead;
         while(cur!=null){
             if(map.get(cur.val)>=2){
