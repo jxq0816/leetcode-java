@@ -1,4 +1,4 @@
-package quicksort;
+package sort;
 
 public class QuickSort {
     public static int[] quickSort(int low, int high, int[] array){
