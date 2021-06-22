@@ -17,12 +17,11 @@ public class QuickSortPartition {
         return low;
     }
     public int[] quickSort(int[] array,int start,int end){
-        if(start>end){
-            return array;
+        if(start<end){
+            int mid=partition(array,start,end);
+            quickSort(array,0,mid-1);//左侧快排
+            quickSort(array,mid+1,end);//右侧快排
         }
-        int mid=partition(array,start,end);
-        quickSort(array,0,mid-1);//左侧快排
-        quickSort(array,mid+1,end);//右侧快排
         return array;
     }
     public static void main(String[] args) {
