@@ -18,10 +18,10 @@ public class Solution {
             ans.add(new ArrayList<Integer>(combine));
             return;
         }
-        dfs(candidates,ans,target,combine,idx+1);
+        dfs(candidates,ans,target,combine,idx+1);//不选择
         if(target-candidates[idx]>=0){
             combine.add(candidates[idx]);
-            dfs(candidates,ans,target-candidates[idx],combine,idx);
+            dfs(candidates,ans,target-candidates[idx],combine,idx);//选择
             combine.remove(combine.size() - 1);
             //回溯框架，进行下一步之前加入当前节点，下一步递归过之后，要把当前节点从路径中删除，所以才是“回溯”。
         }

@@ -8,7 +8,7 @@ public class QuickSortPartition {
                 high--;
             }
             array[low]=array[high];
-            while(low<high&&array[high]<=pivot){
+            while(low<high&&array[low]<=pivot){
                 low++;
             }
             array[high]=array[low];
