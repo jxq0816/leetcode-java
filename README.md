@@ -289,9 +289,19 @@ No.101 对称二叉树：https://xingqijiang.blog.csdn.net/article/details/11382
 
 No.102 二叉树的层序遍历：https://blog.csdn.net/jxq0816/article/details/119582945
 
+No.103 二叉树的锯齿形层序遍历:https://blog.csdn.net/jxq0816/article/details/120255899
+
 No.104 二叉树的最大深度：https://xingqijiang.blog.csdn.net/article/details/113830719
 
+No.105 从前序与中序遍历序列构造二叉树:https://blog.csdn.net/jxq0816/article/details/117382572
+
+No.106 从中序与后序遍历序列构造二叉树:https://blog.csdn.net/jxq0816/article/details/117719848
+
 No.107 二叉树的层序遍历 II：https://blog.csdn.net/jxq0816/article/details/119619353
+
+No.108 将有序数组转换为二叉搜索树:https://blog.csdn.net/jxq0816/article/details/113918136
+
+No.109 有序链表转换二叉搜索树:https://blog.csdn.net/jxq0816/article/details/120258345
 
 No.110 平衡二叉树：https://xingqijiang.blog.csdn.net/article/details/113839692
 
