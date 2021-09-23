@@ -18,7 +18,6 @@ public class Solution {
         visited.put(node,newNode);
         List<Node> newList=new ArrayList<>();
         List<Node> list=node.neighbors;
-        newNode.neighbors=list;
         for(Node nb:list){
             newList.add(cloneGraph(nb));
         }
