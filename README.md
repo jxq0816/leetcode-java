@@ -157,6 +157,8 @@ No.46 全排列：https://xingqijiang.blog.csdn.net/article/details/113621106
 
 No.47 全排列 II：https://xingqijiang.blog.csdn.net/article/details/113663275
 
+No.48 旋转图像：https://blog.csdn.net/jxq0816/article/details/120371734
+
 hash表
 
 No.49 字母异位词分组：https://blog.csdn.net/jxq0816/article/details/118436994
@@ -217,9 +219,13 @@ No.69 x 的平方根：https://blog.csdn.net/jxq0816/article/details/113814719
 
 No.70 爬楼梯：https://xingqijiang.blog.csdn.net/article/details/113733757
 
+No.71 简化路径（栈）:https://blog.csdn.net/jxq0816/article/details/120386993
+
 No.72 编辑距离：https://blog.csdn.net/jxq0816/article/details/119516604
 
 No.73 矩阵置零：https://blog.csdn.net/jxq0816/article/details/119550105
+
+No.74 搜索二维矩阵（二分查找）:https://blog.csdn.net/jxq0816/article/details/120373999
 
 No.75 颜色分类：https://blog.csdn.net/jxq0816/article/details/117231883
 
@@ -249,9 +255,17 @@ No.86 分隔链表：https://blog.csdn.net/jxq0816/article/details/118069751
 
 No.88 合并两个有序数组：https://blog.csdn.net/jxq0816/article/details/113820636
 
+No.89 格雷编码（DFS）:https://blog.csdn.net/jxq0816/article/details/120387667
+
 DFS
 
 No.90 子集 II：https://xingqijiang.blog.csdn.net/article/details/116833400 
+
+No.91 解码方法（动态规划）:https://blog.csdn.net/jxq0816/article/details/120379963
+
+No.92 反转链表 II:https://blog.csdn.net/jxq0816/article/details/117956157
+
+No.93 复原 IP 地址（DFS）:https://blog.csdn.net/jxq0816/article/details/120382366
 
 No.94 二叉树的中序遍历：https://xingqijiang.blog.csdn.net/article/details/116423613
 
@@ -262,6 +276,12 @@ No.95 不同的二叉搜索树 II：https://blog.csdn.net/jxq0816/article/detail
 动态规划DP
 
 No.96 不同的二叉搜索树：https://blog.csdn.net/jxq0816/article/details/118282453
+
+No.97 交错字符串:https://blog.csdn.net/jxq0816/article/details/120117135
+
+No.98 验证二叉搜索树:https://blog.csdn.net/jxq0816/article/details/119394953
+
+No.99 恢复二叉搜索树:https://blog.csdn.net/jxq0816/article/details/119813162
 
 No.100 相同的树：https://xingqijiang.blog.csdn.net/article/details/113826070
 
