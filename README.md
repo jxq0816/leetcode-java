@@ -279,6 +279,10 @@ No.111 二叉树的最小深度：https://xingqijiang.blog.csdn.net/article/deta
 
 No.112 路径总和：https://xingqijiang.blog.csdn.net/article/details/114169095
 
+No.114 二叉树展开为链表:https://blog.csdn.net/jxq0816/article/details/120389895
+
+No.116 填充每个节点的下一个右侧节点指针:https://blog.csdn.net/jxq0816/article/details/120391329
+
 数组
 
 No.121 买卖股票的最佳时机：https://xingqijiang.blog.csdn.net/article/details/114214445
@@ -291,6 +295,18 @@ No.125 验证回文串：https://xingqijiang.blog.csdn.net/article/details/11443
 
 No.128 最长连续序列：https://blog.csdn.net/jxq0816/article/details/119655485
 
+No.130 被围绕的区域（DFS）:https://blog.csdn.net/jxq0816/article/details/120432662
+
+No.131 分割回文串（DFS）:https://blog.csdn.net/jxq0816/article/details/120423790
+
+No.133 克隆图（DFS）:https://blog.csdn.net/jxq0816/article/details/120443317
+
+No.134 加油站:https://blog.csdn.net/jxq0816/article/details/120413024
+
+No.138 复制带随机指针的链表（回溯）:https://blog.csdn.net/jxq0816/article/details/120396073
+
+No.139 单词拆分（动态规划）:https://blog.csdn.net/jxq0816/article/details/120401165
+
 DFS
 
 No.144 二叉树的前序遍历：https://xingqijiang.blog.csdn.net/article/details/116562119
@@ -299,9 +315,21 @@ No.145 二叉树的后序遍历：https://xingqijiang.blog.csdn.net/article/deta
 
 No.146 LRU 缓存机制：https://blog.csdn.net/jxq0816/article/details/119703591
 
+No.150 逆波兰表达式求值:https://blog.csdn.net/jxq0816/article/details/120426096
+
+No.152 乘积最大子数组:https://blog.csdn.net/jxq0816/article/details/120444021
+
+No.153 寻找旋转排序数组中的最小值（二分查找）:https://blog.csdn.net/jxq0816/article/details/120445411
+
 SQL
 
+No.162 寻找峰值（二分查找）:https://blog.csdn.net/jxq0816/article/details/120416839
+
 No.175 组合两个表：https://xingqijiang.blog.csdn.net/article/details/114380358
+
+No.187 重复的DNA序列（滑动窗口）:https://blog.csdn.net/jxq0816/article/details/120403505
+
+No.194 转置文件:https://blog.csdn.net/jxq0816/article/details/120446559
 
 链表
 
