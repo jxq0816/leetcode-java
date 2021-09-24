@@ -459,13 +459,17 @@ No.219 存在重复元素 II：https://xingqijiang.blog.csdn.net/article/details
 
 No.203 移除链表元素:https://xingqijiang.blog.csdn.net/article/details/113716403
 
-DFS
+No.204 计数质数：https://xingqijiang.blog.csdn.net/article/details/114108112
 
-No.226 翻转二叉树：https://xingqijiang.blog.csdn.net/article/details/113729284
+No.206 反转链表：https://xingqijiang.blog.csdn.net/article/details/111087187
 
-递归
+No.216 组合总和 III（DFS）:https://xingqijiang.blog.csdn.net/article/details/120320725
 
-No.226 翻转二叉树：https://xingqijiang.blog.csdn.net/article/details/113729284
+No.217 存在重复元素（hash表）:https://xingqijiang.blog.csdn.net/article/details/113730056
+
+No.219 存在重复元素 II（滑动窗口）:https://xingqijiang.blog.csdn.net/article/details/113731736
+
+No.226 翻转二叉树（DFS)：https://xingqijiang.blog.csdn.net/article/details/113729284
 
 No.237 删除链表中的节点：https://xingqijiang.blog.csdn.net/article/details/113729504
 
@@ -473,5 +477,7 @@ DFS
 
 No.257 二叉树的所有路径：https://xingqijiang.blog.csdn.net/article/details/115282067
 
+No.912 排序数组（快速排序）:https://xingqijiang.blog.csdn.net/article/details/119942607
 
+No.1202 交换字符串中的元素:https://xingqijiang.blog.csdn.net/article/details/113796427
 
