@@ -443,19 +443,11 @@ No.196 删除重复的电子邮箱:https://xingqijiang.blog.csdn.net/article/det
 
 No.197 上升的温度:https://xingqijiang.blog.csdn.net/article/details/115269875
 
-链表
-
-No.203 移除链表元素：https://xingqijiang.blog.csdn.net/article/details/113716403
-
-No.206 反转链表：https://xingqijiang.blog.csdn.net/article/details/111087187
+No.198 打家劫舍（动态规划）:https://blog.csdn.net/jxq0816/article/details/120456531
 
 No.199 二叉树的右视图:https://xingqijiang.blog.csdn.net/article/details/120239319
 
-hash表
-
-No.217 存在重复元素：https://xingqijiang.blog.csdn.net/article/details/113730056
-
-No.219 存在重复元素 II：https://xingqijiang.blog.csdn.net/article/details/113731736
+No.200 岛屿数量:https://blog.csdn.net/jxq0816/article/details/120458427
 
 No.203 移除链表元素:https://xingqijiang.blog.csdn.net/article/details/113716403
 
