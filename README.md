@@ -309,9 +309,17 @@ No.111 二叉树的最小深度：https://xingqijiang.blog.csdn.net/article/deta
 
 No.112 路径总和：https://xingqijiang.blog.csdn.net/article/details/114169095
 
+No.113 路径总和 II:https://blog.csdn.net/jxq0816/article/details/116866156
+
 No.114 二叉树展开为链表:https://blog.csdn.net/jxq0816/article/details/120389895
 
 No.116 填充每个节点的下一个右侧节点指针:https://blog.csdn.net/jxq0816/article/details/120391329
+
+No.118 杨辉三角（动态规划）:https://blog.csdn.net/jxq0816/article/details/114185463
+
+No.119 杨辉三角 II:https://blog.csdn.net/jxq0816/article/details/114197554
+
+No.120 三角形最小路径和:https://xingqijiang.blog.csdn.net/article/details/120253010
 
 数组
 
@@ -319,11 +327,15 @@ No.121 买卖股票的最佳时机：https://xingqijiang.blog.csdn.net/article/d
 
 No.122 买卖股票的最佳时机 II：https://xingqijiang.blog.csdn.net/article/details/114236645
 
+No.124 二叉树中的最大路径和：https://blog.csdn.net/jxq0816/article/details/119295297
+
 双指针
 
 No.125 验证回文串：https://xingqijiang.blog.csdn.net/article/details/114436633
 
 No.128 最长连续序列：https://blog.csdn.net/jxq0816/article/details/119655485
+
+No.129 求根节点到叶节点数字之和：https://blog.csdn.net/jxq0816/article/details/120029814
 
 No.130 被围绕的区域（DFS）:https://blog.csdn.net/jxq0816/article/details/120432662
 
@@ -333,9 +345,19 @@ No.133 克隆图（DFS）:https://blog.csdn.net/jxq0816/article/details/12044331
 
 No.134 加油站:https://blog.csdn.net/jxq0816/article/details/120413024
 
+No.136 只出现一次的数字：https://blog.csdn.net/jxq0816/article/details/114451209
+
+No.137 只出现一次的数字 II：https://blog.csdn.net/jxq0816/article/details/120037222
+
 No.138 复制带随机指针的链表（回溯）:https://blog.csdn.net/jxq0816/article/details/120396073
 
 No.139 单词拆分（动态规划）:https://blog.csdn.net/jxq0816/article/details/120401165
+
+No.141 环形链表：https://blog.csdn.net/jxq0816/article/details/114465458
+
+No.142 环形链表 II：https://blog.csdn.net/jxq0816/article/details/120071851
+
+No.143 重排链表：https://blog.csdn.net/jxq0816/article/details/120109850
 
 DFS
 
@@ -345,21 +367,81 @@ No.145 二叉树的后序遍历：https://xingqijiang.blog.csdn.net/article/deta
 
 No.146 LRU 缓存机制：https://blog.csdn.net/jxq0816/article/details/119703591
 
+No.147 对链表进行插入排序：https://blog.csdn.net/jxq0816/article/details/79223437
+
+No.148 排序链表（归并）：https://blog.csdn.net/jxq0816/article/details/119845844
+
 No.150 逆波兰表达式求值:https://blog.csdn.net/jxq0816/article/details/120426096
+
+No.151 翻转字符串里的单词:https://blog.csdn.net/jxq0816/article/details/120236779
 
 No.152 乘积最大子数组:https://blog.csdn.net/jxq0816/article/details/120444021
 
 No.153 寻找旋转排序数组中的最小值（二分查找）:https://blog.csdn.net/jxq0816/article/details/120445411
 
+No.155 最小栈:https://blog.csdn.net/jxq0816/article/details/114481153
+
+No.160 相交链表:https://blog.csdn.net/jxq0816/article/details/114505817
+
 SQL
 
 No.162 寻找峰值（二分查找）:https://blog.csdn.net/jxq0816/article/details/120416839
 
+No.165 比较版本号：https://blog.csdn.net/jxq0816/article/details/120235826
+
+No.167 两数之和 II - 输入有序数组：https://blog.csdn.net/jxq0816/article/details/114649527
+
+No.168 Excel表列名称：https://blog.csdn.net/jxq0816/article/details/115289733
+
+No.169 多数元素：https://blog.csdn.net/jxq0816/article/details/114767734
+
+No.171 Excel表列序号：https://leetcode-cn.com/problems/excel-sheet-column-number/
+
+No.172 阶乘后的零：https://blog.csdn.net/jxq0816/article/details/115045486
+
+No.173 二叉搜索树迭代器（DFS）：https://blog.csdn.net/jxq0816/article/details/120384571
+
 No.175 组合两个表：https://xingqijiang.blog.csdn.net/article/details/114380358
+
+No.176 第二高的薪水：https://blog.csdn.net/jxq0816/article/details/115058312
+
+No.177 第N高的薪水：https://blog.csdn.net/jxq0816/article/details/120111041
+
+No.178 分数排名：https://blog.csdn.net/jxq0816/article/details/120122767
+
+No.179 最大数：https://blog.csdn.net/jxq0816/article/details/119685706
+
+No.180 连续出现的数字：https://blog.csdn.net/jxq0816/article/details/120123309
+
+No.181 超过经理收入的员工：https://blog.csdn.net/jxq0816/article/details/115059140
+
+No.182 查找重复的电子邮箱：https://blog.csdn.net/jxq0816/article/details/115260476
+
+No.183 从不订购的客户：https://blog.csdn.net/jxq0816/article/details/115260835
+
+No.184 部门工资最高的员工：https://blog.csdn.net/jxq0816/article/details/120123614
+
+No.185 部门工资前三高的所有员工：https://blog.csdn.net/jxq0816/article/details/120113900
 
 No.187 重复的DNA序列（滑动窗口）:https://blog.csdn.net/jxq0816/article/details/120403505
 
+No.189 旋转数组：https://blog.csdn.net/jxq0816/article/details/120211544
+
+No.190 颠倒二进制位：https://blog.csdn.net/jxq0816/article/details/114005000
+
+No.191 位1的个数：https://blog.csdn.net/jxq0816/article/details/113925873
+
+No.192 统计词频：https://blog.csdn.net/jxq0816/article/details/115051312
+
+No.193 有效电话号码：https://blog.csdn.net/jxq0816/article/details/114047851
+
 No.194 转置文件:https://blog.csdn.net/jxq0816/article/details/120446559
+
+No.195 第十行:https://xingqijiang.blog.csdn.net/article/details/115262975
+
+No.196 删除重复的电子邮箱:https://xingqijiang.blog.csdn.net/article/details/115265381
+
+No.197 上升的温度:https://xingqijiang.blog.csdn.net/article/details/115269875
 
 链表
 
@@ -367,11 +449,15 @@ No.203 移除链表元素：https://xingqijiang.blog.csdn.net/article/details/11
 
 No.206 反转链表：https://xingqijiang.blog.csdn.net/article/details/111087187
 
+No.199 二叉树的右视图:https://xingqijiang.blog.csdn.net/article/details/120239319
+
 hash表
 
 No.217 存在重复元素：https://xingqijiang.blog.csdn.net/article/details/113730056
 
 No.219 存在重复元素 II：https://xingqijiang.blog.csdn.net/article/details/113731736
+
+No.203 移除链表元素:https://xingqijiang.blog.csdn.net/article/details/113716403
 
 DFS
 
