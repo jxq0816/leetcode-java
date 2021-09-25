@@ -117,9 +117,9 @@ No.34 在排序数组中查找元素的第一个和最后一个位置：https://
 
 No.35 搜索插入位置：https://xingqijiang.blog.csdn.net/article/details/112853144
 
-数组
+No.36 有效的数独(数组)：https://xingqijiang.blog.csdn.net/article/details/113064053
 
-No.36 有效的数独：https://xingqijiang.blog.csdn.net/article/details/113064053
+No.37 解数独（回溯）:https://blog.csdn.net/jxq0816/article/details/120462003
 
 递归
 
@@ -204,6 +204,8 @@ No.62 不同路径：https://blog.csdn.net/jxq0816/article/details/116110763
 No.63 不同路径 II：https://blog.csdn.net/jxq0816/article/details/116408615
 
 No.64 最小路径和：https://blog.csdn.net/jxq0816/article/details/116423187
+
+No.65 有效数字（有限状态自动机）：https://blog.csdn.net/jxq0816/article/details/120464885
 
 数学运算
 
