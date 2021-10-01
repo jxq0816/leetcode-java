@@ -45,7 +45,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        no139_wordBreak.Solution solution=new no139_wordBreak.Solution();
+        Solution solution=new Solution();
         String s = "leetcode";
         List<String> wordDict=new ArrayList<String>();
         wordDict.add("leet");
