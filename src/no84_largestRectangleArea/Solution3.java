@@ -1,10 +1,7 @@
 package no84_largestRectangleArea;
-import java.util.ArrayDeque;
-import java.util.Deque;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
-
 public class Solution3 {
     public int largestRectangleArea(int[] heights) {
         int len = heights.length;
@@ -29,16 +26,17 @@ public class Solution3 {
         // 先放入哨兵，在循环里就不用做非空判断
         stack.addLast(heights[0]);
         for (int i = 1; i < len; i++) {
-            //右边小于当前高度时，开始计算
+            //这个while很关键，因为有可能不止一个柱形的最大宽度可以被计算出来,栈顶元素为当前柱形的下标
+            //小于栈顶柱形高度时，开始计算柱形高度对应的最大面积
             while (heights[i] < heights[stack.peekLast()]) {
-                //当前高度
                 int curIndex=stack.pollLast();
+                //当前高度
                 int curHeight = heights[curIndex];
                 int curWidth = i - stack.peekLast() - 1;
                 System.out.println("curIndex = " +  (curIndex-1) + " " + curHeight * curWidth);
                 res = Math.max(res, curHeight * curWidth);
             }
-            //右边大于等于当前高度时，入栈
+            //大于等于栈顶柱形高度时，入栈
             stack.addLast(i);
         }
         return res;

@@ -15,6 +15,7 @@ public class Solution2 {
         Deque<Integer> stack = new ArrayDeque<>(len);
         for (int i = 0; i < len; i++) {
             // 这个 while 很关键，因为有可能不止一个柱形的最大宽度可以被计算出来
+            // 小于栈顶柱形高度时，开始计算柱形高度对应的最大面积
             while (!stack.isEmpty() && heights[i] < heights[stack.peekLast()]) {
                 //当前高度
                 int curIndex=stack.pollLast();
@@ -38,6 +39,7 @@ public class Solution2 {
         while (!stack.isEmpty()) {
             int curIndex=stack.pollLast();
             int curHeight = heights[curIndex];
+            //中间那些相等的柱形可以当做不存在
             while (!stack.isEmpty() && heights[stack.peekLast()] == curHeight) {
                 stack.pollLast();
             }
