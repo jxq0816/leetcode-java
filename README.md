@@ -469,11 +469,11 @@ No.226 翻转二叉树（DFS)：https://xingqijiang.blog.csdn.net/article/detail
 
 No.237 删除链表中的节点：https://xingqijiang.blog.csdn.net/article/details/113729504
 
-DFS
-
 No.257 二叉树的所有路径：https://xingqijiang.blog.csdn.net/article/details/115282067
 
-No.912 排序数组（快速排序）:https://xingqijiang.blog.csdn.net/article/details/119942607
+No.470 用 Rand7() 实现 Rand10()：https://blog.csdn.net/jxq0816/article/details/120616849
 
-No.1202 交换字符串中的元素:https://xingqijiang.blog.csdn.net/article/details/113796427
+No.912 排序数组（快速排序）：https://xingqijiang.blog.csdn.net/article/details/119942607
+
+No.1202 交换字符串中的元素：https://xingqijiang.blog.csdn.net/article/details/113796427
 
