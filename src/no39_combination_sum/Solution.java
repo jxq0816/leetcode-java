@@ -4,13 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Solution {
+    List<List<Integer>> ans=new ArrayList<List<Integer>>();
+    List<Integer> combine=new ArrayList<Integer>();
+
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        List<List<Integer>> ans=new ArrayList<List<Integer>>();
-        List<Integer> combine=new ArrayList<Integer>();
-        dfs(candidates,ans,target,combine,0);
+        dfs(candidates,target,0);
         return ans;
     }
-    void dfs(int[] candidates,List<List<Integer>> ans,int target, List<Integer> combine, int idx){
+    void dfs(int[] candidates,int target, int idx){
         if(idx==candidates.length){
             return;
         }
@@ -18,12 +19,24 @@ public class Solution {
             ans.add(new ArrayList<Integer>(combine));
             return;
         }
-        dfs(candidates,ans,target,combine,idx+1);//不选择
+        dfs(candidates,target,idx+1);//不选择
         if(target-candidates[idx]>=0){
             combine.add(candidates[idx]);
-            dfs(candidates,ans,target-candidates[idx],combine,idx);//选择
+            dfs(candidates,target-candidates[idx],idx);//选择
             combine.remove(combine.size() - 1);
             //回溯框架，进行下一步之前加入当前节点，下一步递归过之后，要把当前节点从路径中删除，所以才是“回溯”。
+        }
+    }
+
+    public static void main(String[] args) {
+        Solution solution=new Solution();
+        List<List<Integer>> rs=solution.combinationSum(new int[]{2,3,6,7},7);
+        for(List<Integer> list:rs){
+            for(Integer i:list){
+                System.out.print(i);
+                System.out.print(" ");
+            }
+            System.out.println();
         }
     }
 }
