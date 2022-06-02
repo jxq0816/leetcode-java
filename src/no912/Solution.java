@@ -25,7 +25,7 @@ public class Solution {
         return quickSort(nums,0,nums.length-1);
     }
     public static void main(String[] args) {
-        int[] nums={1,2,5,4,3};
+        int[] nums={1,2,5,4,3,4};
         Solution solution=new Solution();
         int[] rs=solution.sortArray(nums);
         for(int i=0;i<rs.length;i++){
