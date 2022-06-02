@@ -1,9 +1,9 @@
 package no912;
 
 public class Solution {
-    public int[] quickSort(int[] nums,int low,int high) {
+    public void quickSort(int[] nums,int low,int high) {
         if(low>=high){
-            return nums;
+            return;
         }
         int i=low,j=high,pivot=nums[high];
         while(i<j){
@@ -19,17 +19,16 @@ public class Solution {
         nums[i]=pivot;
         quickSort(nums,low,i-1);
         quickSort(nums,i+1,high);
-        return nums;
     }
-    public int[] sortArray(int[] nums) {
-        return quickSort(nums,0,nums.length-1);
+    public void sortArray(int[] nums) {
+        quickSort(nums,0,nums.length-1);
     }
     public static void main(String[] args) {
         int[] nums={1,2,5,4,3,4};
         Solution solution=new Solution();
-        int[] rs=solution.sortArray(nums);
-        for(int i=0;i<rs.length;i++){
-            System.out.println(rs[i]);
+        solution.sortArray(nums);
+        for(int i=0;i<nums.length;i++){
+            System.out.println(nums[i]);
         }
     }
 }
