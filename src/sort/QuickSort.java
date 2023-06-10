@@ -1,9 +1,9 @@
 package sort;
 
 public class QuickSort {
-    public static int[] quickSort(int low, int high, int[] array){
+    public static void quickSort(int low, int high, int[] array){
         if(low>=high){
-            return array;
+            return;
         }
         int i=low,j=high,x=array[low];
         while(i<j){
@@ -19,14 +19,14 @@ public class QuickSort {
         array[i]=x;
         quickSort(low,i-1,array);
         quickSort(i+1,high,array);
-        return array;
+        return;
     }
     public static void main(String[] args) {
         QuickSort instance = new QuickSort();
         int[] array={1,2,5,4,3};
-        int[] rs=instance.quickSort(0,array.length-1,array);
-        for(int i=0;i<rs.length;i++){
-            System.out.println(rs[i]);
+        instance.quickSort(0,array.length-1,array);
+        for(int i=0;i<array.length;i++){
+            System.out.println(array[i]);
         }
     }
 }
