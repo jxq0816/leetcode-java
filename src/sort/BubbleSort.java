@@ -18,9 +18,6 @@ public class BubbleSort {
                 }
             }
             if (flag == false) {
-                for(int k=0;k<a.length;k++){
-                    System.out.println(a[k]);
-                }
                 return cnt;//本趟遍历后没有发生交换，说明表已经有序
             }
         }
@@ -29,6 +26,9 @@ public class BubbleSort {
     public static void main(String[] args){
         int a[]={4,1,5,2};
         int cnt=sort(a);
+        for(int k=0;k<a.length;k++){
+            System.out.println(a[k]);
+        }
         System.out.println("交换"+cnt+"次");
 
     }
