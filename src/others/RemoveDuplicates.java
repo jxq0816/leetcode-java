@@ -22,8 +22,9 @@ public class RemoveDuplicates {
                         t++;
                     }
                     j--;//继续循环，删除多次重复的数
-                }else
+                }else{
                     continue;
+                }
             }
         }
         return (numsSize-count);
