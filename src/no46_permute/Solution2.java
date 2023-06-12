@@ -13,21 +13,21 @@ class Solution2 {
         return res;
     }
 
-    public void backtrack(int[] nums, List<List<Integer>> res, int idx,List<Integer> perm) {
+    public void backtrack(int[] nums, List<List<Integer>> res, int index,List<Integer> perm) {
         // 所有数都填完了
-        if (idx == nums.length) {
-            res.add(new ArrayList<Integer>(perm));
+        if(index==nums.length){
+            res.add(new ArrayList<>(perm));
             return;
         }
-        for (int i = 0; i < nums.length; i++) {
+        for(int i=0;i<nums.length;i++){
             if(vis[i]){
                 continue;
             }
             perm.add(nums[i]);
             vis[i]=true;
-            backtrack(nums, res, idx+1, perm);
+            backtrack(nums,res,index+1,perm);
             vis[i]=false;
-            perm.remove(idx);
+            perm.remove(index);
         }
     }
 
