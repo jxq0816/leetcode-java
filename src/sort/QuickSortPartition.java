@@ -1,35 +1,35 @@
 package sort;
 
 public class QuickSortPartition {
-    public int partition(int[] array,int low,int high){
-        int pivot=array[low];
+    public int partition(int[] a,int low,int high){
+        int pivot=a[low];
         while(low<high){
-            while(low<high&&array[high]>=pivot){
+            while(low<high&&a[high]>=pivot){
                 high--;
             }
-            array[low]=array[high];
-            while(low<high&&array[low]<=pivot){
+            a[low]=a[high];
+            while(low<high&&a[low]<=pivot){
                 low++;
             }
-            array[high]=array[low];
+            a[high]=a[low];
         }
-        array[low]=pivot;
+        a[low]=pivot;
         return low;
     }
-    public void quickSort(int[] array,int start,int end){
+    public void quickSort(int[] a,int start,int end){
         if(start<end){
-            int mid=partition(array,start,end);
-            quickSort(array,0,mid-1);//左侧快排
-            quickSort(array,mid+1,end);//右侧快排
+            int mid=partition(a,start,end);
+            quickSort(a,0,mid-1);//左侧快排
+            quickSort(a,mid+1,end);//右侧快排
         }
         return;
     }
     public static void main(String[] args) {
         QuickSortPartition instance = new QuickSortPartition();
-        int[] array={1,2,5,4,3};
-        instance.quickSort(array,0,array.length-1);
-        for(int i=0;i<array.length;i++){
-            System.out.println(array[i]);
+        int[] a={1,2,5,4,3};
+        instance.quickSort(a,0,a.length-1);
+        for(int i=0;i<a.length;i++){
+            System.out.println(a[i]);
         }
     }
 }
