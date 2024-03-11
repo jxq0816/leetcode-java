@@ -28,8 +28,8 @@ public class QuickSortPartition {
         QuickSortPartition instance = new QuickSortPartition();
         int[] a={1,2,5,4,3};
         instance.quickSort(a,0,a.length-1);
-        for(int i=0;i<a.length;i++){
-            System.out.println(a[i]);
+        for(int i:a){
+            System.out.println(i);
         }
     }
 }
