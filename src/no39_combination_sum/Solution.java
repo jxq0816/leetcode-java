@@ -32,11 +32,7 @@ public class Solution {
         Solution solution=new Solution();
         List<List<Integer>> rs=solution.combinationSum(new int[]{2,3,6,7},7);
         for(List<Integer> list:rs){
-            for(Integer i:list){
-                System.out.print(i);
-                System.out.print(" ");
-            }
-            System.out.println();
+            System.out.println(list.toString());
         }
     }
 }
