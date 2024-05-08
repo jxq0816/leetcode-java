@@ -1,5 +1,7 @@
 package sort;
 
+import java.util.Arrays;
+
 public class QuickSortPartition {
     public int partition(int[] a,int low,int high){
         int pivot=a[low];
@@ -28,8 +30,6 @@ public class QuickSortPartition {
         QuickSortPartition instance = new QuickSortPartition();
         int[] a={1,2,5,4,3};
         instance.quickSort(a,0,a.length-1);
-        for(int i:a){
-            System.out.println(i);
-        }
+        System.out.println(Arrays.toString(a));
     }
 }
