@@ -8,10 +8,10 @@ import java.util.List;
  * */
 
 public class LessCoins {
-    public static List<List<Integer>> rs=new ArrayList();
-    public static List<Integer> list=new ArrayList();
+    public static List rs=new ArrayList();
+    public static List list=new ArrayList();
 
-    public static List<List<Integer>> solution(int[] a,int t){
+    public static List solution(int[] a,int t){
         dfs(a,t,0);
         return rs;
     }

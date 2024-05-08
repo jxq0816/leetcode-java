@@ -9,32 +9,35 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Solution2 {
-    public static List<List<Integer>> rs=new ArrayList<>();
-    public static List<Integer> list=new ArrayList<>();
-    public static List<List<Integer>> solution(int[] a,int t){
-        dfs(a,t,0);
+    public static List rs=new ArrayList();
+    public static List list=new ArrayList();
+
+    public List lessCoins(int[] a,int target){
+        dfs(a,target,0);
         return rs;
     }
-    public static void dfs(int[] a,int t,int i){
-        if(i==a.length){
+
+    public void dfs(int[] a,int target,int index){
+        if(index==a.length){
             return;
         }
-        if(t==0){
-            rs.add(new ArrayList<>(list));
+        if(target==0){
+            rs.add(new ArrayList<Integer>(list));
             return;
         }
-        dfs(a,t,i+1);
-        if(t>=a[i]){
-            list.add(a[i]);
-            dfs(a,t-a[i],i);
+        dfs(a,target,index+1);
+        if(target>=a[index]){
+            list.add(a[index]);
+            dfs(a,target-a[index],index);
             list.remove(list.size()-1);
         }
     }
 
     public static void main(String[] args) {
-        int[] a={5,10,20,50};
-        Solution2 st=new Solution2();
-        List rs=st.solution(a,80);
-        System.out.println(rs.toString());
+        int[] a={1,5,10,20,50};
+        int target=80;
+        Solution2 solution2=new Solution2();
+        List rs=solution2.lessCoins(a,target);
+        System.out.println(rs);
     }
 }
