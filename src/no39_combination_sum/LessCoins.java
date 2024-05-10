@@ -11,22 +11,23 @@ public class LessCoins {
     public static List rs=new ArrayList();
     public static List list=new ArrayList();
 
-    public static List solution(int[] a,int t){
-        dfs(a,t,0);
+    public static List solution(int[] a,int target){
+        dfs(a,target,0);
         return rs;
     }
-    public static void dfs(int[] a,int t,int i){
+
+    public static void dfs(int[] a,int target,int i){
         if(i==a.length){
             return;
         }
-        if(t==0){
-            rs.add(new ArrayList<Integer>(list));
+        if(target==0){
+            rs.add(new ArrayList<>(list));
             return;
         }
-        dfs(a,t,i+1);
-        if(t-a[i]>=0){
+        dfs(a,target,i+1);
+        if(target>=a[i]){
             list.add(a[i]);
-            dfs(a,t-a[i],i);
+            dfs(a,target-a[i],i);
             list.remove(list.size()-1);
         }
     }
