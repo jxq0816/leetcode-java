@@ -2,18 +2,17 @@ package no46_permute;
 import java.util.ArrayList;
 
 public class DFS {
-
+    ArrayList rs=new ArrayList<>();
+    ArrayList list=new ArrayList<>();
     boolean[] visit;
 
-    public ArrayList<ArrayList<Integer>> fun(int[] a){
-        ArrayList<ArrayList<Integer>> rs=new ArrayList<>();
-        ArrayList<Integer> list=new ArrayList<>();
+    public ArrayList fun(int[] a){
         visit=new boolean[a.length];
-        dfs(rs,list,a,0);
+        dfs(a,0);
         return rs;
     }
 
-    public void dfs(ArrayList<ArrayList<Integer>> rs, ArrayList<Integer> list, int[] a, int index){
+    public void dfs(int[] a, int index){
         if(index==a.length){
             rs.add(new ArrayList<>(list));
             return;
@@ -24,7 +23,7 @@ public class DFS {
             }
             list.add(a[i]);
             visit[i]=true;
-            dfs(rs,list,a,index+1);
+            dfs(a,index+1);
             list.remove(list.size()-1);
             visit[i]=false;
         }
@@ -35,10 +34,7 @@ public class DFS {
         DFS dfs=new DFS();
         ArrayList<ArrayList<Integer>> rs=dfs.fun(a);
         for(ArrayList<Integer> list:rs){
-            for(Integer i:list){
-                System.out.print(i);
-            }
-            System.out.println();
+            System.out.println(list.toString());
         }
     }
 }

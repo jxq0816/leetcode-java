@@ -37,10 +37,7 @@ class Solution2 {
         int[] array={1,2,3};
         List<List<Integer>> rs=solution.permute(array);
         for(List<Integer> list:rs){
-            for(Integer i:list){
-                System.out.print(i);
-            }
-            System.out.println();
+            System.out.println(list.toString());
         }
     }
 }
