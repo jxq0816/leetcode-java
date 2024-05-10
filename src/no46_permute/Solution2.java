@@ -4,16 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Solution2 {
+    List<List<Integer>> res = new ArrayList<List<Integer>>();
+    List<Integer> perm = new ArrayList<Integer>();
     boolean[] vis;
     public List<List<Integer>> permute(int[] nums) {
-        List<List<Integer>> res = new ArrayList<List<Integer>>();
-        List<Integer> perm = new ArrayList<Integer>();
+
         vis=new boolean[nums.length];
-        backtrack(nums,res, 0,perm);
+        backtrack(nums, 0);
         return res;
     }
 
-    public void backtrack(int[] nums, List<List<Integer>> res, int index,List<Integer> perm) {
+    public void backtrack(int[] nums, int index) {
         // 所有数都填完了
         if(index==nums.length){
             res.add(new ArrayList<>(perm));
@@ -25,7 +26,7 @@ class Solution2 {
             }
             perm.add(nums[i]);
             vis[i]=true;
-            backtrack(nums,res,index+1,perm);
+            backtrack(nums,index+1);
             vis[i]=false;
             perm.remove(index);
         }
