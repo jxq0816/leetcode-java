@@ -3,7 +3,7 @@ package no46_permute;
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution2 {
+class SolutionVisTag {
     List<List<Integer>> res = new ArrayList<List<Integer>>();
     List<Integer> perm = new ArrayList<Integer>();
     boolean[] vis;
@@ -33,7 +33,7 @@ class Solution2 {
     }
 
     public static void main(String[] args) {
-        Solution2 solution=new Solution2();
+        SolutionVisTag solution=new SolutionVisTag();
         int[] array={1,2,3};
         List<List<Integer>> rs=solution.permute(array);
         for(List<Integer> list:rs){
