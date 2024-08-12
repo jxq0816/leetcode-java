@@ -1,4 +1,4 @@
-package no39_combination_sum_无重复有放回;
+package no39_组合_dfs_有放回;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,10 +24,12 @@ public class LessCoins {
             rs.add(new ArrayList<>(list));
             return;
         }
+        //不选择i
         dfs(a,target,i+1);
         if(target>=a[i]){
             list.add(a[i]);
             dfs(a,target-a[i],i);
+            //回溯
             list.remove(list.size()-1);
         }
     }

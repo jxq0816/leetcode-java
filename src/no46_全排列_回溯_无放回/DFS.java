@@ -1,4 +1,4 @@
-package no46_permute_无重复无放回;
+package no46_全排列_回溯_无放回;
 import java.util.ArrayList;
 
 public class DFS {

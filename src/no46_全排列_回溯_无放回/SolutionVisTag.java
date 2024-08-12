@@ -1,4 +1,6 @@
-package no46_permute_无重复无放回;
+//题目描述：https://xingqijiang.blog.csdn.net/article/details/113621106
+
+package no46_全排列_回溯_无放回;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,9 +26,12 @@ class SolutionVisTag {
             if(vis[i]){
                 continue;
             }
+            //选择i
             perm.add(nums[i]);
             vis[i]=true;
+            //进入到第i+1层
             backtrack(nums,index+1);
+            //回溯
             vis[i]=false;
             perm.remove(index);
         }
